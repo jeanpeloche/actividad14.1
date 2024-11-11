@@ -1,3 +1,22 @@
 main {
-    min-height: calc(100vh - 160px);
-  }
+  min-height: calc(100vh - 160px);
+}
+
+main {
+  min-height: calc(100vh - 160px);
+}
+
+  .card {
+    width: 18rem;      
+    height: 300px;    
+    margin-top: 20px;
+}
+
+.card-body {
+  overflow-y: auto;  
+  max-height: 150px; 
+}
+
+.card-img-top {
+  height: 200px;     
+}
